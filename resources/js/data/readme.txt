@@ -1,0 +1,1 @@
+json export of places table query: select concat(long_name,", ",state) as citystate from `places`group by concat(long_name,", ",state);
